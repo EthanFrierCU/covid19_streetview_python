@@ -43,7 +43,6 @@ with open('testLocations.csv') as csv_file:
 
 
 # variables for street view api and image processing
-# apiKey = "AIzaSyCSS48GzFqR_eDPSBdGygdj2vTHiC5Um1c"
 keyDoc = open('keys.txt', 'r')
 apiKey = keyDoc.read()
 print(apiKey)
